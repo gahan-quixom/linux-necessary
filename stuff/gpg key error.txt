@@ -1,0 +1,6 @@
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys <key>
+gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv E0F72778C4676186
+
+wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -
+
+wget -q "http://liveusb.info/multisystem/depot" -O- | sudo apt-key add -
